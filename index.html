@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نادي نلتقي لنرتقي</title>
+    <!-- Bootstrap RTL CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Google Fonts - Cairo -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="نادي نلتقي لنرتقي" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">عن النادي</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#activities">الأنشطة</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">معرض الصور</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="videos.html">معرض الفيديوهات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">تواصل معنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#rules">التزامات وقوانين النادي</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-center">
+                    <h1 class="display-4 text-white mb-4">مرحباً بكم في نادي نلتقي لنرتقي</h1>
+                    <p class="lead text-white mb-4">معاً نلتقي لنرتقي بالمجتمع</p>
+                    <a href="#about" class="btn btn-primary btn-lg">تعرف علينا</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title">عن النادي</h2>
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6 reveal">
+                    <div class="about-content">
+                        <h3 class="mb-4">من نحن</h3>
+                        <p class="lead">نادي نلتقي لنرتقي هو نادٍ ثقافي وفني واجتماعي تأسس في 22 جوان 2022 في الإقامة الجامعية شنتوف محمد. نهدف إلى إنشاء مجتمع راقٍ من خلال تقديم مجموعة متنوعة من الأنشطة للطلاب.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 reveal">
+                    <div class="about-image">
+                        <img src="images/about.jpg" alt="صورة النادي" class="img-fluid rounded-3 shadow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Goals Section -->
+    <section id="goals" class="py-5 goals-section">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title text-white">أهدافنا</h2>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 reveal">
+                    <div class="goal-card">
+                        <div class="goal-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h4>تعزيز الوعي الثقافي</h4>
+                        <p>نسعى لرفع مستوى الوعي الثقافي والفكري لدى الطلاب من خلال برامج متنوعة</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 reveal">
+                    <div class="goal-card">
+                        <div class="goal-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h4>تطوير المواهب الفنية</h4>
+                        <p>اكتشاف وصقل المواهب الفنية للطلاب في مختلف المجالات الإبداعية</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 reveal">
+                    <div class="goal-card">
+                        <div class="goal-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>بناء مجتمع متميز</h4>
+                        <p>تأسيس مجتمع طلابي متميز يساهم في تطوير البيئة الجامعية</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 reveal">
+                    <div class="goal-card">
+                        <div class="goal-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h4>تعزيز التعاون</h4>
+                        <p>تشجيع روح التعاون والعمل الجماعي بين الطلاب لتحقيق أهداف مشتركة</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 g-4">
+                <div class="col-md-6 reveal">
+                    <div class="goal-stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 class="stat-number">50+</h3>
+                            <p class="stat-text">نشاط منجز</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 reveal">
+                    <div class="goal-stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 class="stat-number">200+</h3>
+                            <p class="stat-text">طالب مشارك</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">أنشطتنا</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <i class="fas fa-theater-masks fa-3x text-primary mb-3"></i>
+                            <h4>المسرحيات الهادفة</h4>
+                            <p>تقديم عروض مسرحية هادفة تحمل رسائل هامة للمجتمع</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <i class="fas fa-microphone-alt fa-3x text-primary mb-3"></i>
+                            <h4>البرامج الإذاعية</h4>
+                            <p>إنتاج برامج إذاعية ذات محتوى احترافي</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <i class="fas fa-palette fa-3x text-primary mb-3"></i>
+                            <h4>فنون الرسم</h4>
+                            <p>تشجيع الطلاب على ممارسة فن الرسم والتعبير عن أنفسهم</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rules Section -->
+    <section id="rules" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title">التزامات وقوانين النادي</h2>
+            
+            <div class="row g-4">
+                <!-- القوانين العامة -->
+                <div class="col-md-6 reveal">
+                    <div class="rules-card">
+                        <div class="card-header">
+                            <h3 class="mb-0"><i class="fas fa-gavel me-2"></i>القوانين العامة</h3>
+                        </div>
+                        <div class="card-body">
+                            <ul class="rules-list">
+                                <li>يجب على أعضاء النادي احترام كل القوانين الداخلية للإقامة الجامعية</li>
+                                <li>يجب على أعضاء النادي الالتزام بقوانين النادي داخل الإقامة وخارجها</li>
+                                <li>يجب على أعضاء النادي الالتزام بالسيرة الحسنة والخلق الجيد</li>
+                                <li>يجب على الأعضاء والمشتركين في النادي الحرص على احترام الطالبات وتقبل آرائهم</li>
+                                <li>عدم التدخل في القرارات الإدارية وما يشبه ذلك</li>
+                                <li>عدم إدخال الأمور الشخصية والمحافظة على الصورة العامة للنادي</li>
+                                <li>المحافظة على السلم الإداري وسيرورة العمل</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- السلوك والاحترام -->
+                <div class="col-md-6 reveal">
+                    <div class="rules-card">
+                        <div class="card-header">
+                            <h3 class="mb-0"><i class="fas fa-handshake me-2"></i>السلوك والاحترام</h3>
+                        </div>
+                        <div class="card-body">
+                            <ul class="rules-list">
+                                <li>احترام رئيس النادي ونائبه وأعضائه</li>
+                                <li>احترام المدرب الخاص بكل دورة تكوينية</li>
+                                <li>يجب على كل منخرط احترام مواعيد النادي</li>
+                                <li>النادي يعطي الحرية في الانخراط مع نشاطات أخرى</li>
+                                <li>يمتلك النادي الصلاحية في فصل أي منخرط إثر ارتكابه أفعال مخالفة للقانون الداخلي</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Preview Section -->
+    <section id="gallery-preview" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title">معرض الصور</h2>
+            <div class="gallery-preview">
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <a href="gg/pngegg (1).png" data-lightbox="gallery-preview">
+                            <img src="gg/pngegg (1).png" alt="نشاطات النادي" class="img-fluid rounded">
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="gg/pngegg (2).png" data-lightbox="gallery-preview">
+                            <img src="gg/pngegg (2).png" alt="مناسبات النادي" class="img-fluid rounded">
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="gg/pngegg (3).png" data-lightbox="gallery-preview">
+                            <img src="gg/pngegg (3).png" alt="إنجازات النادي" class="img-fluid rounded">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="gallery.html" class="btn btn-primary btn-lg">
+                    <i class="fas fa-images me-2"></i> معرض الصور الكامل
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Gallery Section -->
+    <section id="video-preview" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title">معرض الفيديوهات</h2>
+            <div class="row g-4">
+                <div class="col-md-4 reveal">
+                    <div class="video-preview-card" data-bs-toggle="modal" data-bs-target="#videoModal1">
+                        <img src="images/videos/thumbnail1.jpg" alt="فيديو النادي" class="img-fluid">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="video-overlay">
+                            <h5 class="video-title">فعاليات النادي</h5>
+                            <p class="video-description">لقطات من أهم فعاليات النادي</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal">
+                    <div class="video-preview-card" data-bs-toggle="modal" data-bs-target="#videoModal2">
+                        <img src="images/videos/thumbnail2.jpg" alt="فيديو النادي" class="img-fluid">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="video-overlay">
+                            <h5 class="video-title">ورش العمل</h5>
+                            <p class="video-description">تغطية لورش العمل التدريبية</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal">
+                    <div class="video-preview-card" data-bs-toggle="modal" data-bs-target="#videoModal3">
+                        <img src="images/videos/thumbnail3.jpg" alt="فيديو النادي" class="img-fluid">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="video-overlay">
+                            <h5 class="video-title">لقاءات النادي</h5>
+                            <p class="video-description">أجمل لحظات لقاءات النادي</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="videos.html" class="btn btn-primary btn-lg">
+                    <i class="fas fa-video me-2"></i> معرض الفيديوهات الكامل
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Modals -->
+    <div class="modal fade" id="videoModal1" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">فعاليات النادي</h5>
+                    <button type="button" class="btn-close ms-0 me-auto" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <video class="modal-video" controls>
+                        <source src="videos/video1.mp4" type="video/mp4">
+                        متصفحك لا يدعم تشغيل الفيديو.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="videoModal2" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ورش العمل</h5>
+                    <button type="button" class="btn-close ms-0 me-auto" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <video class="modal-video" controls>
+                        <source src="videos/video2.mp4" type="video/mp4">
+                        متصفحك لا يدعم تشغيل الفيديو.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="videoModal3" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">لقاءات النادي</h5>
+                    <button type="button" class="btn-close ms-0 me-auto" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <video class="modal-video" controls>
+                        <source src="videos/video3.mp4" type="video/mp4">
+                        متصفحك لا يدعم تشغيل الفيديو.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">تواصل معنا</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">الاسم</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">البريد الإلكتروني</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">الرسالة</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">إرسال</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <h3>معلومات الاتصال</h3>
+                        <p><i class="fas fa-map-marker-alt me-2"></i> الإقامة الجامعية شنتوف محمد، معسكر، الجزائر</p>
+                        <p><i class="fas fa-envelope me-2"></i> info@naltaqi.com</p>
+                        <div class="social-links mt-4">
+                            <a href="#" class="me-3"><i class="fab fa-facebook fa-2x"></i></a>
+                            <a href="#" class="me-3"><i class="fab fa-twitter fa-2x"></i></a>
+                            <a href="#" class="me-3"><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>جميع الحقوق محفوظة © 2023 - نادي نلتقي لنرتقي</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
